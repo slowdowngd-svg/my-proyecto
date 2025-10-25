@@ -1,0 +1,157 @@
+ /* ====== ESTILOS GENERALES ====== */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    overflow-x: hidden;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #e9ecef;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #871975;
+    border-radius: 10px;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+    background-color: #198754 !important;
+    transition: all 0.3s ease;
+}
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #d4edda !important;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* ====== TARJETAS ====== */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.card-header {
+    border-radius: 15px 15px 0 0;
+}
+.card img {
+    border-radius: 15px 15px 0 0;
+}
+
+/* ====== BOTONES ====== */
+.btn-success {
+    background-color: #198754;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-success:hover {
+    background-color: #157347;
+    transform: scale(1.03);
+}
+.btn-outline-success {
+    border: 2px solid #198754;
+    color: #198754;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.btn-outline-success:hover {
+    background-color: #198754;
+    color: white;
+    transform: scale(1.03);
+}
+.btn-danger {
+    transition: all 0.3s ease;
+}
+.btn-danger:hover {
+    transform: scale(1.05);
+}
+
+/* ====== TABLAS ====== */
+.table th {
+    background-color: #198754 !important;
+    color: white;
+}
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* ====== FORMULARIOS ====== */
+.form-control:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+.form-label {
+    font-weight: 500;
+    color: #198754;
+}
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+/* ====== PIE DE PÁGINA ====== */
+footer {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.95rem;
+    margin-top: 40px;
+}
+footer a {
+    color: #d4edda;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* ====== SECCIÓN NOSOTROS ====== */
+.card .card-title {
+    color: #198754;
+    font-weight: 600;
+}
+.card .card-text {
+    color: #6c757d;
+}
+.card .btn-outline-success {
+    margin-top: 10px;
+}
+
+/* ====== EFECTO DE TRANSICIÓN ====== */
+a, button {
+    transition: all 0.3s ease;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+    .card img {
+        height: 200px;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
